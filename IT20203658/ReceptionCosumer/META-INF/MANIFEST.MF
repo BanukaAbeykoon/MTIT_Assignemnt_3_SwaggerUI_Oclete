@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ReceptionCosumer
+Bundle-SymbolicName: ReceptionCosumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: receptioncosumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ReceptionCosumer
+Import-Package: org.osgi.framework;version="1.3.0",
+ receptionModel,
+ receptionService,
+ receptionStore,
+ receptioncosumer,
+ receptionimplService,
+ receptionproducer
+Bundle-ActivationPolicy: lazy
+Export-Package: receptioncosumer
